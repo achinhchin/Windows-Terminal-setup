@@ -3,9 +3,9 @@ This is my window Terminal setup.
 I did this to save time setting up the Terminal on a new computer and hope it will be helpful to you.
 You don't have to adjust all of these. Adapt to your work style.
 
-![Terminal Screenshot](terminal%20screenshot%201.png)
-![Terminal Screenshot](terminal%20screenshot%202.png)
-![Terminal Screenshot](terminal%20screenshot%203.png)
+![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%201.png?raw=true)
+![Terminal Screenshot](terminal%20screenshot%202.png?raw=true)
+![Terminal Screenshot](terminal%20screenshot%203.png?raw=true)
 
 ### **Content**
 #### 1. [Install and setup Termianl](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#1-install-and-setting-softwares)
