@@ -1,0 +1,21 @@
+{
+    "versions": {
+        "0.0": {
+            "feature": [
+                "window terminal setup"
+            ],
+            "development version": {
+                "release": true
+            }
+        }
+    },
+    "features": {
+        "future": {
+        },
+        "present": {
+            "create window terminal setup": "0.0 -> now"
+        },
+        "past": {
+        }
+    }
+}
