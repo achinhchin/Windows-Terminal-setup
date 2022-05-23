@@ -103,4 +103,4 @@ Type this command in your terminal.
 start $PROFILE.CurrentUserCurrentHost  
 ```
 
-And copy data from this [file](Microsoft.PowerShell_profile.ps1) to your terminal and save.
+And copy data from this [file](./Microsoft.PowerShell_profile.ps1) to your terminal and save.
