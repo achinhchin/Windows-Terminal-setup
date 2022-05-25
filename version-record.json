@@ -7,6 +7,21 @@
             "development version": {
                 "release": true
             }
+        },
+        "0.1": {
+            "feature": [
+                "window terminal setup"
+            ],
+            "development version": {
+                "beta": {
+                    "0.1.b.0": [
+                        "Fix text link not work in github",
+                        "add change default terminal application",
+                        "change sudo command",
+                        "pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
+                    ]
+                }
+            }
         }
     },
     "features": {

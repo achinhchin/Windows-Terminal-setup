@@ -8,13 +8,13 @@ You don't have to adjust all of these. Adapt to your work style.
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%203.png?raw=true)
 
 ### **Content**
-#### 1. [Install and setup Termianl](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#1-install-and-setting-softwares)
-1. [Install Font](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#11-install-font)
-2. [Install 2 softwares from Microsoft Store.](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#12-install-2-softwares-from-microsoft-store)
-3. [Setting Terminal](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#13-setting-terminal)
-#### 2. [Install and setup Terminal software](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#2-install-and-setup-terminal-software)
-1. [Install Terminal software](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#21-install-terminal-software)
-2. [Enable Terminal software](Projects/Software%20Setup/Setup%20List/Window%20Terminal/Project/readme.md#22-enable-terminal-software)
+#### 1. [Install and setup Termianl](./readme.md#1-install-and-setup-termianlreadmemd)
+1. [Install Font](./readme.md#11-install-font)
+2. [Install 2 softwares from Microsoft Store.](./readme.md#12-install-2-softwares-from-microsoft-store)
+3. [Setting Terminal](./readme.md#13-setting-terminal)
+#### 2. [Install and setup Terminal software](./readme.md#2-install-and-setup-terminal-software)
+1. [Install Terminal software](./readme.md#21-install-terminal-software)
+2. [Enable Terminal software](./readme.md#22-enable-terminal-software)
 
 ### **OS requirement**
 - Windows 10, 11
@@ -46,9 +46,12 @@ And you can see more fonts to get the one that is right for you [here](https://w
 ## **2. Install and setup Terminal software**
 
 ### **2.1 Install Terminal software**
+
+Type these command in your terminal
+
 > **Note**
 >
-> Type these command in your terminal
+> If problem about administrator permission occured, type "*sudo*" in front of that command.
 
 1. Install [Scoop](https://scoop.sh/).
 ```
@@ -77,12 +80,12 @@ winget install oh-my-posh
 
 6. Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 ```
-sudo Install-Module -Name Terminal-Icons -Repository PSGallery
+Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
 7. Install [Z](https://www.powershellgallery.com/packages/z/)
 ```
-sudo Install-Module -Name z -Force
+Install-Module -Name z -Force
 ```
 
 8. Install [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/)
@@ -100,7 +103,10 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 
 Type this command in your terminal.
 ```
-start $PROFILE.CurrentUserCurrentHost  
+cd (your\document\path)
+mkdir PowerShell
+New-Item -Path $PROFILE.CurrentUserCurrentHost -ItemType File
+start $PROFILE.CurrentUserCurrentHost
 ```
 
 And copy data from this [file](./Microsoft.PowerShell_profile.ps1) to your terminal and save.
