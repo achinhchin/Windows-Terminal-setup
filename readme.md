@@ -13,14 +13,13 @@ You don't have to adjust all of these. Adapt to your work style.
 - Windows 10, 11
 
 ### **Content**
-#### 1. [Install and setup Termianl](./readme.md#1-install-and-setup-termianlreadmemd)
-1. [Install Font](./readme.md#11-install-font)
+#### 1. [Install and setup Terminal](./readme.md#1-install-and-setup-terminal)
+1. [Install font](./readme.md#11-install-font)
 2. [Install 2 softwares from Microsoft Store.](./readme.md#12-install-2-softwares-from-microsoft-store)
 3. [Setting Terminal](./readme.md#13-setting-terminal)
 #### 2. [Install and setup Terminal software](./readme.md#2-install-and-setup-terminal-software)
 1. [Install Terminal software](./readme.md#21-install-terminal-software)
 2. [Enable Terminal software](./readme.md#22-enable-terminal-software)
-
 
 ---
 
