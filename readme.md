@@ -7,19 +7,20 @@ You don't have to adjust all of these. Adapt to your work style.
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%202.png?raw=true)
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%203.png?raw=true)
 
-### **[Version record](./version-record.json)**
+### **Go to**
+- **[Version record](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/version-record.json)**
 
 ### **OS requirement**
 - Windows 10, 11
 
 ### **Content**
-#### 1. [Install and setup Terminal](./readme.md#1-install-and-setup-terminal)
-1. [Install font](./readme.md#11-install-font)
-2. [Install 2 softwares from Microsoft Store.](./readme.md#12-install-2-softwares-from-microsoft-store)
-3. [Setting Terminal](./readme.md#13-setting-terminal)
-#### 2. [Install and setup Terminal software](./readme.md#2-install-and-setup-terminal-software)
-1. [Install Terminal software](./readme.md#21-install-terminal-software)
-2. [Enable Terminal software](./readme.md#22-enable-terminal-software)
+#### 1. [Install and setup Terminal](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#1-install-and-setup-terminal)
+1. [Install font](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#11-install-font)
+2. [Install 2 softwares from Microsoft Store.](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#12-install-2-softwares-from-microsoft-store)
+3. [Setting Terminal](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#13-setting-terminal)
+#### 2. [Install and setup Terminal software](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#2-install-and-setup-terminal-software)
+1. [Install Terminal software](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#21-install-terminal-software)
+2. [Enable Terminal software](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#22-enable-terminal-software)
 
 ---
 
@@ -39,7 +40,7 @@ And you can see more fonts to get the one that is right for you [here](https://w
 ### **1.3 Setting Terminal**
 1. Open Terminal.
 2. Open Setting in Terminal (Ctrl - ,).
-3. At "**Startup**" pane select default profile to "*PowerShell*" that install from [1.2](./readme.md#12-install-2-softwares-from-microsoft-store).
+3. At "**Startup**" pane select default profile to "*PowerShell*" that install from [1.2](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#12-install-2-softwares-from-microsoft-store).
 4. At **Actions** pane remove all shortcut at "**New tab, profile index: (0 - 8)**" and change short cut at "**Switch to tab, index: 0 - 7** to "*ctrl+shift+(1 - 8)*"
 5. At "**Default**" pane in "**Profiles**" group select "**Color scheme**" to ("*One Half Dark*" if your window is dark mode,  "*One Half Light*" if your window is light mode) and **"Font face"** to "*CaskaydiaCove NF*" and "**Cursor shape**" to  "*Vintage ( _ )*" and "**Background opacity**" to *50%*.
 6. At "**Appearance**" pane select "*Show acrylic in tab row(requires relaunch)*" to on.
@@ -111,4 +112,4 @@ New-Item -Path $PROFILE.CurrentUserCurrentHost -ItemType File
 start $PROFILE.CurrentUserCurrentHost
 ```
 
-And copy data from this [file](./Microsoft.PowerShell_profile.ps1) to your terminal and save.
+And copy data from this [file](Microsoft.PowerShell_profile.ps1) to your terminal and save.
