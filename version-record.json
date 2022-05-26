@@ -21,7 +21,8 @@
                         "Pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
                     ],
                     "0.1.b.1": [
-                        "Change the proportions of readme.md"
+                        "Change the proportions of readme.md",
+                        "Fix some link not work"
                     ]
                 }
             }
