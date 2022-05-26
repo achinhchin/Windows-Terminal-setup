@@ -23,6 +23,9 @@
                     "0.1.b.1": [
                         "Change the proportions of readme.md",
                         "Fix some link not work"
+                    ],
+                    "0.1.b.2": [
+                        "fix mangy bug"
                     ]
                 }
             }
