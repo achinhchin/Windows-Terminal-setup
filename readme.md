@@ -9,6 +9,7 @@ You don't have to adjust all of these. Adapt to your work style.
 
 ### **Go to**
 - **[Version record](./version-record.json)**
+- See how to run Linux on Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git).
 
 ### **OS requirement**
 - Windows 10, 11
