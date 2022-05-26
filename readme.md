@@ -8,13 +8,8 @@ You don't have to adjust all of these. Adapt to your work style.
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%203.png?raw=true)
 
 ### **Go to**
-<<<<<<< HEAD
 - **[Version record](./version-record.json)**
 - See how to run Linux on Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git).
-=======
-- **[Version record](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/version-record.json)**
-- see how to get Linux on your Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git)
->>>>>>> origin/master
 
 ### **OS requirement**
 - Windows 10, 11
