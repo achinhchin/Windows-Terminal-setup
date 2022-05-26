@@ -9,6 +9,7 @@ You don't have to adjust all of these. Adapt to your work style.
 
 ### **Go to**
 - **[Version record](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/version-record.json)**
+- see how to get Linux on your Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git)
 
 ### **OS requirement**
 - Windows 10, 11
