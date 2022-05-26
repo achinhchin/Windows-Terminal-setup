@@ -16,9 +16,12 @@
                 "beta": {
                     "0.1.b.0": [
                         "Fix text link not work in github",
-                        "add change default terminal application",
-                        "change sudo command",
-                        "pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
+                        "Add change default terminal application",
+                        "Change sudo command",
+                        "Pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
+                    ],
+                    "0.1.b.1": [
+                        "Change the proportions"
                     ]
                 }
             }

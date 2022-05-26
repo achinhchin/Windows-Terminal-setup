@@ -7,6 +7,11 @@ You don't have to adjust all of these. Adapt to your work style.
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%202.png?raw=true)
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%203.png?raw=true)
 
+### **[Version record](./version-record.json)**
+
+### **OS requirement**
+- Windows 10, 11
+
 ### **Content**
 #### 1. [Install and setup Termianl](./readme.md#1-install-and-setup-termianlreadmemd)
 1. [Install Font](./readme.md#11-install-font)
@@ -16,8 +21,6 @@ You don't have to adjust all of these. Adapt to your work style.
 1. [Install Terminal software](./readme.md#21-install-terminal-software)
 2. [Enable Terminal software](./readme.md#22-enable-terminal-software)
 
-### **OS requirement**
-- Windows 10, 11
 
 ---
 
