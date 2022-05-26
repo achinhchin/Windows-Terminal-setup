@@ -42,7 +42,7 @@ And you can see more fonts to get the one that is right for you [here](https://w
 2. Open Setting in Terminal (Ctrl - ,).
 3. At "**Startup**" pane select default profile to "*PowerShell*" that install from [1.2](Projects/Software%20Setup/Setup%20List/Windows%20Terminal%20setup/Project/readme.md#12-install-2-softwares-from-microsoft-store).
 4. At **Actions** pane remove all shortcut at "**New tab, profile index: (0 - 8)**" and change short cut at "**Switch to tab, index: 0 - 7** to "*ctrl+shift+(1 - 8)*"
-5. At "**Default**" pane in "**Profiles**" group select "**Color scheme**" to ("*One Half Dark*" if your window is dark mode,  "*One Half Light*" if your window is light mode) and **"Font face"** to "*CaskaydiaCove NF*" and "**Cursor shape**" to  "*Vintage ( _ )*" and "**Background opacity**" to *50%*.
+5. At "**Default**" pane in "**Profiles**" group select "**Color scheme**" to ("*One Half Dark*" if your window is dark mode,  "*One Half Light*" if your Windows is light mode) and **"Font face"** to "*CaskaydiaCove NF*" and "**Cursor shape**" to  "*Vintage ( _ )*" and "**Background opacity**" to (*50%* if your Windows is dark mode and "*75%*" if your Windows is light mode).
 6. At "**Appearance**" pane select "*Show acrylic in tab row(requires relaunch)*" to on.
 7. Press "*Save*" Button.
 
