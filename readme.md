@@ -8,7 +8,7 @@ You don't have to adjust all of these. Adapt to your work style.
 ![Terminal Screenshot](https://github.com/chinhchin/window-terminal-setup/blob/master/readme-assets/terminal%20screenshot%203.png?raw=true)
 
 ### **Go to**
-- **[Version record](./version-record.json)**
+- [Version record](./version-record.json)
 - See how to run Linux on Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git).
 
 ### **OS requirement**

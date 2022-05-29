@@ -27,6 +27,7 @@
                     "0.1.b.2": [
                         "fix many bug",
                         "add Go to WSL"
+			"Remove bold format in Go to version-record.json"
                     ]
                 }
             }
