@@ -26,8 +26,9 @@
                     ],
                     "0.1.b.2": [
                         "fix many bug",
-                        "add Go to WSL"
-			"Remove bold format in Go to version-record.json"
+                        "add Go to WSL",
+			"Remove bold format in Go to version-record.json",
+			"add remote ctrl+p to paste shortcut in window terminal"
                     ]
                 }
             }
