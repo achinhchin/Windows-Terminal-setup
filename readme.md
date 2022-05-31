@@ -11,14 +11,18 @@ You don't have to adjust all of these. Adapt to your work style.
 - [Version record](./version-record.json)
 - See how to run Linux on Windows Terminal [here](https://github.com/chinhchin/WSL-setup.git).
 
-### **OS requirement**
+### **OS support**
 - Windows 10, 11
+
+### **Credits**
+- Inspiration, list of modules and solution from [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public.git).
 
 ### **Content**
 #### 1. [Install and setup Terminal](./readme.md#1-install-and-setup-terminal)
 1. [Install font](./readme.md#11-install-font)
 2. [Install 2 softwares from Microsoft Store.](./readme.md#12-install-2-softwares-from-microsoft-store)
 3. [Setting Terminal](./readme.md#13-setting-terminal)
+
 #### 2. [Install and setup Terminal software](./readme.md#2-install-and-setup-terminal-software)
 1. [Install Terminal software](./readme.md#21-install-terminal-software)
 2. [Enable Terminal software](./readme.md#22-enable-terminal-software)
@@ -26,7 +30,6 @@ You don't have to adjust all of these. Adapt to your work style.
 ---
 
 ## **1. Install and setup Terminal**
-
 ### **1.1 Install font.**
 First, I have to install Nerd Fonts so that I can display the icons and markers used in programming nicely.
 
@@ -48,7 +51,6 @@ And you can see more fonts to get the one that is right for you [here](https://w
 7. Press "*Save*" Button.
 
 ## **2. Install and setup Terminal software**
-
 ### **2.1 Install Terminal software**
 
 Type these command in your terminal
@@ -104,7 +106,6 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 ```
 
 ### **2.2 Enable Terminal software**
-
 Type this command in your terminal.
 ```
 cd (your\document\path)
