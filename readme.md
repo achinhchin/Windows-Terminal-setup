@@ -163,7 +163,7 @@ You can also jump over directory.
 
 ![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/5.png?raw=true)
 
-### **3.6. Useful shortcuts command** (aliases)
+### **3.6 Useful shortcuts command** (aliases)
 - **Vim** - nvim
 - **ll** - list files and folders in current directory
 - **grep** - find string
