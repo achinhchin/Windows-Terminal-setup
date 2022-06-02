@@ -1,9 +1,9 @@
-# **My indows Terminl setup**
+# **My Windows Terminl setup**
 This is my window Terminal setup.
 I did this to save time setting up the Terminal on a new computer and hope it will be helpful to you.
 You don't have to adjust all of these. Adapt to your work style.
 
-### **Preview Image**
+### **Image Preview*
 - Search Directory
 ![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Preview%20Image/terminal%20screenshot%201.png?raw=true)
 - list directory with icons and colors.
