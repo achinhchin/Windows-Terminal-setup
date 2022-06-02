@@ -33,7 +33,8 @@
                         "Add image",
                         "Add Usage of feature",
                         "Add Alias clr to clearscreen like cls",
-                        "Add ?raw=true in command that get image from github"
+                        "Add ?raw=true in command that get image from github",
+                        "Add contents"
                     ]
                 }
             }
