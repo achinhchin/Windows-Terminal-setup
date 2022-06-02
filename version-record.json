@@ -32,7 +32,8 @@
                         "Add credits and change some format",
                         "Add image",
                         "Add Usage of feature",
-                        "Add Alias clr to clearscreen like cls"
+                        "Add Alias clr to clearscreen like cls",
+                        "Add ?raw=true in command that get image from github"
                     ]
                 }
             }
