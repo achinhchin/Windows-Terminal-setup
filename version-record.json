@@ -25,11 +25,14 @@
                         "Fix some link not work"
                     ],
                     "0.1.b.2": [
-                        "fix many bug",
-                        "add Go to WSL",
+                        "Fix many bug",
+                        "Add Go to WSL",
                         "Remove bold format in Go to version-record.json",
-                        "add remote ctrl+p to paste shortcut in window terminal",
-                        "add credits and change some format"
+                        "Add remote ctrl+p to paste shortcut in window terminal",
+                        "Add credits and change some format",
+                        "Add image",
+                        "Add Usage of feature",
+                        "Add Alias clr to clearscreen like cls"
                     ]
                 }
             }
