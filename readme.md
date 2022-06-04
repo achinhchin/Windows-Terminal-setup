@@ -3,7 +3,7 @@ This is my window Terminal setup.
 I did this to save time setting up the Terminal on a new computer and hope it will be helpful to you.
 You don't have to adjust all of these. Adapt to your work style.
 
-### **Image Preview*
+### **Image Preview**
 - Search Directory
 ![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Preview%20Image/terminal%20screenshot%201.png?raw=true)
 - list directory with icons and colors.
@@ -57,17 +57,19 @@ And you can see more fonts to get the one that is right for you [here](https://w
 1. Open Terminal.
 2. Open Setting in Terminal (Ctrl - ,).
 3. At "**Startup**" pane select default profile to "*PowerShell*" that install from [1.2](./readme.md#12-install-2-softwares-from-microsoft-store).
-4. At **Actions** pane remove all shortcut at "**New tab, profile index: (0 - 8)**" and change short cut at "**Switch to tab, index: 0 - 7** to "*ctrl+shift+(1 - 8)*" and remove shortcut "*ctrl+v*" to "*paste*"
+4. At "**Actions**" pane set shortcuts "**ctrl+alt+(1 - 9)**" to commands "**New tab, profile index: (0 - 8)**", set shortcut "*ctrl+shift+(1 - 8)*" to commands "**Switch to tab, index: 0 - 7**, set shortcut for "*alt+h*" to command "**Move tab backward**", set shortcut "*alt+l*" to command "**Move tab forward**" and remove shortcut "*ctrl+v*" in command "*paste*"
 5. At "**Default**" pane in "**Profiles**" group select "**Color scheme**" to ("*One Half Dark*" if your window is dark mode,  "*One Half Light*" if your Windows is light mode) and **"Font face"** to "*CaskaydiaCove NF*" and "**Cursor shape**" to  "*Vintage ( _ )*" and "**Background opacity**" to (*50%* if your Windows is dark mode and "*75%*" if your Windows is light mode).
 6. At "**Appearance**" pane select "*Show acrylic in tab row(requires relaunch)*" to on.
 7. Press "*Save*" Button.
+
+> **Tips**
+>
+> You can align the shell's index for for ease of pressing "*ctrl+alt+(index)*" by Press "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to edipress "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to aligh them.
 
 ## **2. Install and setup Terminal software**
 ### **2.1 Install Terminal software**
 
 Type these command in your terminal
-
-> **Note**
 >
 > If problem about administrator permission occured, type "*sudo*" in front of that command.
 
@@ -150,6 +152,7 @@ You can also jump over directory.
 ![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/3.png?raw=true)
 
 ### **3.4 Search file** (Directory list view get from every file and in current directory)
+
 1. Search file by press "*Ctrl-F*".
 2. Type directory or file name and choose command by press "*Up*" and "*Down*" key.
 3. Press "*Enter*" to select command or press "*Esc*" to cancel.

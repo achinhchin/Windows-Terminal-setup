@@ -1,53 +1,52 @@
 {
-    "versions": {
-        "0.0": {
-            "feature": [
-                "window terminal setup"
-            ],
-            "development version": {
-                "release": true
-            }
-        },
-        "0.1": {
-            "feature": [
-                "window terminal setup"
-            ],
-            "development version": {
-                "beta": {
-                    "0.1.b.0": [
-                        "Fix text link not work in github",
-                        "Add change default terminal application",
-                        "Change sudo command",
-                        "Pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
-                    ],
-                    "0.1.b.1": [
-                        "Change the proportions of readme.md",
-                        "Fix some link not work"
-                    ],
-                    "0.1.b.2": [
-                        "Fix many bug",
-                        "Add Go to WSL",
-                        "Remove bold format in Go to version-record.json",
-                        "Add remote ctrl+p to paste shortcut in window terminal",
-                        "Add credits and change some format",
-                        "Add image",
-                        "Add Usage of feature",
-                        "Add Alias clr to clearscreen like cls",
-                        "Add ?raw=true in command that get image from github",
-                        "Add contents",
-                        "remove . after number of topic"
-                    ]
-                }
-            }
-        }
+  "versions": {
+    "0.0": {
+      "feature": [
+        "window terminal setup"
+      ],
+      "development version": {
+        "release": true
+      }
     },
-    "features": {
-        "future": {
-        },
-        "present": {
-            "create window terminal setup": "0.0 -> now"
-        },
-        "past": {
+    "0.1": {
+      "feature": [
+        "window terminal setup"
+      ],
+      "development version": {
+        "beta": {
+          "0.1.b.0": [
+            "Fix text link not work in github",
+            "Add change default terminal application",
+            "Change sudo command",
+            "Pretend when start $PROFILE.CurrentUserCurrentProfile is user before create folder"
+          ],
+          "0.1.b.1": [
+            "Change the proportions of readme.md",
+            "Fix some link not work"
+          ],
+          "0.1.b.2": [
+            "Fix many bug",
+            "Add Go to WSL",
+            "Remove bold format in Go to version-record.json",
+            "Add remote ctrl+p to paste shortcut in window terminal",
+            "Add credits and change some format",
+            "Add image",
+            "Add Usage of feature",
+            "Add Alias clr to clearscreen like cls",
+            "Add ?raw=true in command that get image from github",
+            "Add contents",
+            "remove . after number of topic",
+            "Fix little bit in terminal configuration"
+          ]
         }
+      }
     }
+  },
+  "features": {
+    "future": {},
+    "present": {
+      "create window terminal setup": "0.0 -> now"
+    },
+    "past": {}
+  }
 }
