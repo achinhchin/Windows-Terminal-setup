@@ -373,9 +373,13 @@ And you can see more fonts to get the one that is right for you [here](https://w
 ],
 ```
 
-> **Note**
+> **Align of the shell's index**
 >
 > You can align the shell's index for for ease of pressing "*ctrl+alt+(index)*" by Press "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to edipress "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to aligh them.
+
+> **Shortcuts**
+>
+> You can see what each shortcut run what command in Setting in "*Action*" pane.
 
 ## **2. Install and setup Terminal software**
 ### **2.1 Install Terminal software**
