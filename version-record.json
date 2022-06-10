@@ -36,7 +36,8 @@
             "Add ?raw=true in command that get image from github",
             "Add contents",
             "remove . after number of topic",
-            "Fix little bit in terminal configuration"
+            "Fix little bit in terminal configuration",
+            "Change setting by click to setting Json file"
           ]
         }
       }

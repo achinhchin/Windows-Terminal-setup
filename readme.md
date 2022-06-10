@@ -55,14 +55,325 @@ And you can see more fonts to get the one that is right for you [here](https://w
 
 ### **1.3 Setting Terminal**
 1. Open Terminal.
-2. Open Setting in Terminal (Ctrl - ,).
-3. At "**Startup**" pane select default profile to "*PowerShell*" that install from [1.2](./readme.md#12-install-2-softwares-from-microsoft-store).
-4. At "**Actions**" pane set shortcuts "**ctrl+alt+(1 - 9)**" to commands "**New tab, profile index: (0 - 8)**", set shortcut "*ctrl+shift+(1 - 8)*" to commands "**Switch to tab, index: 0 - 7**, set shortcut for "*alt+h*" to command "**Move tab backward**", set shortcut "*alt+l*" to command "**Move tab forward**" and remove shortcut "*ctrl+v*" in command "*paste*"
-5. At "**Default**" pane in "**Profiles**" group select "**Color scheme**" to ("*One Half Dark*" if your window is dark mode,  "*One Half Light*" if your Windows is light mode) and **"Font face"** to "*CaskaydiaCove NF*" and "**Cursor shape**" to  "*Vintage ( _ )*" and "**Background opacity**" to (*50%* if your Windows is dark mode and "*75%*" if your Windows is light mode).
-6. At "**Appearance**" pane select "*Show acrylic in tab row(requires relaunch)*" to on.
-7. Press "*Save*" Button.
+2. Open Setting JSON file defualt (Ctrl - Shift - ,).
+3. In setting JSON file in profiles.defaults, if your theme is dark replace it with these
+```
+"colorScheme": "One Half Dark", "cursorShape": "vintage",
+"experimental.retroTerminalEffect": false,
+"font": 
+{
+    "face": "CaskaydiaCove NF"
+},
+"opacity": 75,
+"useAcrylic": true
+```
+, but if your theme is light replace it with this
+```
+"colorScheme": "One Half Light", "cursorShape": "vintage",
+"experimental.retroTerminalEffect": false,
+"font": 
+{
+    "face": "CaskaydiaCove NF"
+},
+"opacity": 75,
+"useAcrylic": true
+```
 
-> **Tips**
+> **Note**
+>
+> Don't forget to change font face to your font.
+
+4. In setting JSON file in actions replace it with this
+```
+[
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 4
+        },
+        "keys": "ctrl+shift+5"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 0
+        },
+        "keys": "ctrl+shift+1"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 2
+        },
+        "keys": "ctrl+alt+3"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 7
+        },
+        "keys": "ctrl+shift+8"
+    },
+    {
+        "command": 
+        {
+            "action": "prevTab"
+        },
+        "keys": "alt+h"
+    },
+    {
+        "command": 
+        {
+            "action": "copy",
+            "singleLine": false
+        }
+    },
+    {
+        "command": "paste"
+    },
+    {
+        "command": "find",
+        "keys": "ctrl+shift+f"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+v"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+insert"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+c"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+numpad_minus"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+d"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+numpad_plus"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+plus"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+down"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+left"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+right"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+alt+left"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+up"
+    },
+    {
+        "command": "unbound",
+        "keys": "shift+insert"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+plus"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+minus"
+    },
+    {
+        "command": "unbound",
+        "keys": "win+sc(41)"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+up"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+right"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+left"
+    },
+    {
+        "command": "unbound",
+        "keys": "alt+shift+down"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+numpad0"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+0"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+shift+tab"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+tab"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+shift+vk(255)"
+    },
+    {
+        "command": "unbound",
+        "keys": "ctrl+1"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 2
+        },
+        "keys": "ctrl+shift+3"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 3
+        },
+        "keys": "ctrl+shift+4"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 4294967295
+        },
+        "keys": "ctrl+shift+9"
+    },
+    {
+        "command": 
+        {
+            "action": "splitPane",
+            "split": "auto",
+            "splitMode": "duplicate"
+        }
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 1
+        },
+        "keys": "ctrl+shift+2"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 1
+        },
+        "keys": "ctrl+alt+2"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 5
+        },
+        "keys": "ctrl+shift+6"
+    },
+    {
+        "command": 
+        {
+            "action": "nextTab"
+        },
+        "keys": "alt+l"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 0
+        },
+        "keys": "ctrl+alt+1"
+    },
+    {
+        "command": 
+        {
+            "action": "switchToTab",
+            "index": 6
+        },
+        "keys": "ctrl+shift+7"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 3
+        },
+        "keys": "ctrl+alt+4"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 4
+        },
+        "keys": "ctrl+alt+5"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 5
+        },
+        "keys": "ctrl+alt+6"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 6
+        },
+        "keys": "ctrl+alt+7"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 7
+        },
+        "keys": "ctrl+alt+8"
+    },
+    {
+        "command": 
+        {
+            "action": "newTab",
+            "index": 8
+        },
+        "keys": "ctrl+alt+9"
+    }
+],
+```
+
+> **Note**
 >
 > You can align the shell's index for for ease of pressing "*ctrl+alt+(index)*" by Press "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to edipress "**Open JSON file**" button at pane to open file. Then, go to settings.json.profiles.list to aligh them.
 
@@ -70,6 +381,7 @@ And you can see more fonts to get the one that is right for you [here](https://w
 ### **2.1 Install Terminal software**
 
 Type these command in your terminal
+> **Note**
 >
 > If problem about administrator permission occured, type "*sudo*" in front of that command.
 
