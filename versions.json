@@ -14,7 +14,7 @@
       "features": [
         "window terminal setup"
       ],
-      "release": false,
+      "release": true,
       "updates": [
         "update"
       ],
