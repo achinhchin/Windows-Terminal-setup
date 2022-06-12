@@ -1,16 +1,22 @@
 {
   "versions": {
     "0.0": {
-      "feature": [
+      "features": [
         "window terminal setup"
       ],
-      "development version": {
-        "release": true
-      }
+      "release": true,
+      "updates": [
+        "init"
+      ],
+      "development version": {}
     },
     "0.1": {
-      "feature": [
+      "features": [
         "window terminal setup"
+      ],
+      "release": false,
+      "updates": [
+        "update"
       ],
       "development version": {
         "beta": {
@@ -37,7 +43,8 @@
             "Add contents",
             "remove . after number of topic",
             "Fix little bit in terminal configuration",
-            "Change setting by click to setting Json file"
+            "Change setting by click to setting Json file",
+            "change version-record.json to versions.json file"
           ]
         }
       }
