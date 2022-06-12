@@ -2,7 +2,7 @@
   "versions": {
     "0.0": {
       "features": [
-        "window terminal setup"
+        "Windows Terminal setup"
       ],
       "release": true,
       "updates": [
@@ -12,7 +12,7 @@
     },
     "0.1": {
       "features": [
-        "window terminal setup"
+        "Windows Terminal setup"
       ],
       "release": true,
       "updates": [
@@ -48,12 +48,22 @@
           ]
         }
       }
+    },
+    "0.2": {
+      "features": [
+        "Windows Terminal setup"
+      ],
+      "release": true,
+      "updates": [
+        "image link"
+      ],
+      "development versions": {}
     }
   },
   "features": {
     "future": {},
     "present": {
-      "create window terminal setup": "0.0 -> now"
+      "Windows Terminal setup": "0.0 -> now"
     },
     "past": {}
   }

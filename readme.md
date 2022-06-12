@@ -5,11 +5,11 @@ You don't have to adjust all of these. Adapt to your work style.
 
 ### **Image Preview**
 - Search Directory
-![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Preview%20Image/terminal%20screenshot%201.png?raw=true)
+![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Preview%20Image/terminal%20screenshot%201.png?raw=true)
 - list directory with icons and colors.
-![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Preview%20Image/terminal%20screenshot%202.png?raw=true)
+![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Preview%20Image/terminal%20screenshot%202.png?raw=true)
 - command suggestion
-![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-Setup/blob/0.1.b.2/readme-assets/Preview%20Image/terminal%20screenshot%203.png?raw=true)
+![Terminal Screenshot](https://github.com/chinhchin/Windows-Terminal-Setup/blob/master/readme-assets/Preview%20Image/terminal%20screenshot%203.png?raw=true)
 
 ### **Go to**
 - [Version record](./version-record.json)
@@ -452,20 +452,20 @@ And copy data from this [file](Microsoft.PowerShell_profile.ps1) to your termina
 2. Press "*Tab*" to get suggestion.
 3. Type followed by suggestion then, press "*Tab*" again.
 
-![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/1.png?raw=true)
+![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Usage%20of%20features/1.png?raw=true)
 
 ### **3.2 Right arrow to get command suggestion** (from history)
 1. Type some command.
 2. If it show suggestion of command at right of cursor, press "*Right*" key, if you want to get that command.
 
-![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/2.png?raw=true)
+![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Usage%20of%20features/2.png?raw=true)
 
 ### **3.3 Directory jumper**
 1. Type ```z ``` and followed by all directory path or some part of directory path
 
 You can also jump over directory.
 
-![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/3.png?raw=true)
+![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Usage%20of%20features/3.png?raw=true)
 
 ### **3.4 Search file** (Directory list view get from every file and in current directory)
 
@@ -473,14 +473,14 @@ You can also jump over directory.
 2. Type directory or file name and choose command by press "*Up*" and "*Down*" key.
 3. Press "*Enter*" to select command or press "*Esc*" to cancel.
 
-![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/4.png?raw=true)
+![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Usage%20of%20features/4.png?raw=true)
 
 ### **3.5 Search command**
 1. Search command by press "*Ctrl-R*"
 2. Type command that you want to use that you've used before and choose command by press "*Up*" and "*Down*"
 3. Press "*Enter*" to select command or press "*Esc*" to cancel.
 
-![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/0.1.b.2/readme-assets/Usage%20of%20features/5.png?raw=true)
+![Illustration](https://github.com/chinhchin/Windows-Terminal-setup/blob/master/readme-assets/Usage%20of%20features/5.png?raw=true)
 
 ### **3.6 Useful shortcuts command** (aliases)
 - **Vim** - nvim
