@@ -419,7 +419,7 @@ scoop install neovim gcc
 
 5. Install [Oh My Posh](https://ohmyposh.dev/)
 ```
-winget install oh-my-posh
+winget install --id XP8K0HKJFRXGCK
 ```
 
 6. Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
