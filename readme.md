@@ -444,13 +444,15 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 ```
 
 ### **2.2 Enable Terminal software**
-Type this command in your terminal.
+1. Type this command in your terminal.
 ```
 cd (your\document\path)
 mkdir PowerShell
 New-Item -Path $PROFILE.CurrentUserCurrentHost -ItemType File
 start $PROFILE.CurrentUserCurrentHost
 ```
+
+2. Relaunch **Windows Terminal**.
 
 And copy data from this [file](Microsoft.PowerShell_profile.ps1) to your terminal and save.
 
