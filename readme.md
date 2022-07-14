@@ -55,35 +55,39 @@ And you can see more fonts to get the one that is right for you [here](https://w
 
 ### **1.3 Setting Terminal**
 1. Open Terminal.
-2. Open Setting JSON file defualt (Ctrl - Shift - ,).
-3. In setting JSON file in profiles.defaults, if your theme is dark replace it with these
+2. Open Settings JSON file defualt (Ctrl - Shift - ,).
+3. In ["**profiles**"]["**defaults**"] setting JSON file, if your theme is dark replace it with these
 ```
-"colorScheme": "One Half Dark", "cursorShape": "vintage",
-"experimental.retroTerminalEffect": false,
-"font": 
 {
-    "face": "CaskaydiaCove NF"
+    "colorScheme": "One Half Dark", "cursorShape": "vintage",
+    "experimental.retroTerminalEffect": false,
+    "font": 
+    {
+        "face": "CaskaydiaCove NF"
+    },
+    "opacity": 75,
+    "useAcrylic": true
 },
-"opacity": 75,
-"useAcrylic": true
 ```
 , but if your theme is light replace it with this
 ```
-"colorScheme": "One Half Light", "cursorShape": "vintage",
-"experimental.retroTerminalEffect": false,
-"font": 
 {
-    "face": "CaskaydiaCove NF"
+    "colorScheme": "One Half Light", "cursorShape": "vintage",
+    "experimental.retroTerminalEffect": false,
+    "font": 
+    {
+        "face": "CaskaydiaCove NF"
+    },
+    "opacity": 75,
+    "useAcrylic": true
 },
-"opacity": 75,
-"useAcrylic": true
 ```
 
 > **Note**
 >
 > Don't forget to change font face to your font.
 
-4. In setting JSON file in actions replace it with this
+4. In ["**actions**"] setting JSON file  replace it with this
 ```
 [
     {
@@ -379,7 +383,11 @@ And you can see more fonts to get the one that is right for you [here](https://w
 
 > **Shortcuts**
 >
-> You can see what each shortcut run what command in Setting in "*Action*" pane.
+> You can see what each shortcut run what command in Setting in "*Actions*" pane.
+
+5. In (**Settings**) tab of **Windows Terminal**, in "**Appearance**" pane, set "*Use acrylic material in the tab row (requires relaunch)*" to "**On**".
+
+6. Relaunch **Windows Terminal**.
 
 ## **2. Install and setup Terminal software**
 ### **2.1 Install Terminal software**
